@@ -7,7 +7,7 @@
 	height: 145px;
 	background-color: gray;
 	font-family: serif;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-right: 5px;
 	margin-bottom: 15px;
 	border: 1px solid black;
@@ -18,7 +18,7 @@
 	height: 145px;
 	background-color: gray;
 	font-family: serif;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-right: 5px;
 	margin-bottom: 15px;
 	border: 1px solid black;
@@ -29,7 +29,7 @@
 	height: 145px;
 	background-color: gray;
 	font-family: serif;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-right: 5px;
 	margin-bottom: 15px;
 	border: 1px solid black;
@@ -83,7 +83,7 @@ h1{
 	text-align: center;
 }
 
-/************* Large devices only *********/
+/************* Desktop View *********/
 @media (min-width: 992px){
 	#bg1 {
 		width: 31%;
@@ -97,8 +97,8 @@ h1{
 	
 }
 
-/********** Meduim devices only ***********/
-@media (min-width: 768px) and (max-width: 991px) {
+/********** Tablet View ***********/
+@media (max-width: 991px) , (min-width: 768px) {
 	#bg1 {
 		width: 44%;
 	}
@@ -107,9 +107,10 @@ h1{
 	}
 	#bg3 {
 		width: 90%;
-			}
+       		}
+}
 
-
+/********** Mobile View ***********/
 @media (min-width: 767px) {
 	#bg1 {
 		width: 90%;
