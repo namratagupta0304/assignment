@@ -1,6 +1,9 @@
 *{
 	box-sizing: border-box;
 }
+h1{
+	text-align: center;
+}
 
 #bg1 {
 	width: 310px;
@@ -77,11 +80,9 @@ div{
 	float: left;
 	padding: 5px;
 	position: relative;
-	top: 60px;
+	top: 80px;
 }
-h1{
-	text-align: center;
-}
+
 
 /************* Desktop View *********/
 @media (min-width: 992px){
@@ -98,12 +99,12 @@ h1{
 }
 
 /********** Tablet View ***********/
-@media (max-width: 991px) , (min-width: 768px) {
+@media (max-width: 991px) and (min-width: 768px) {
 	#bg1 {
-		width: 44%;
+		width: 45%;
 	}
 	#bg2 {
-		width: 44%;
+		width: 45%;
 	}
 	#bg3 {
 		width: 90%;
@@ -111,7 +112,7 @@ h1{
 }
 
 /********** Mobile View ***********/
-@media (min-width: 767px) {
+@media (max-width: 767px) {
 	#bg1 {
 		width: 90%;
 	}
